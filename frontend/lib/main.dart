@@ -34,7 +34,7 @@ class LPUNavigationApp extends StatelessWidget {
         textTheme: GoogleFonts.outfitTextTheme(
           Theme.of(context).textTheme,
         ),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           color: Colors.white,
           elevation: 6,
           shadowColor: Colors.black.withOpacity(0.06),

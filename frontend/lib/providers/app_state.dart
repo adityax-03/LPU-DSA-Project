@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import '../models/node.dart';
 
 class AppState extends ChangeNotifier {
-  final String backendUrl = 'http://localhost:8080/api';
+  final String backendUrl = 'https://lpu-dsa-project.onrender.com/api';
 
   // Auth State
   Map<String, dynamic>? userProfile;
